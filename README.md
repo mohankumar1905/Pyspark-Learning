@@ -2,6 +2,7 @@
 This Repository contains sample codes which l learnt from the linkedin course: "Apache PySpark by Example"
 
 
+
 Lesson 1.1
 	Apache Spark consists of
 		i) Spark Core API - Take cares of Task Scheduling, Memory Management, Fault Recovery and Interacting with storage systems. Primarliy written in scala, but can be accessed by Java, Python, R and SQL.
@@ -12,13 +13,15 @@ Lesson 1.2
 	Pyspark is python wrapper around spark(which is written in scala)
 	
 Lesson 1.4 
+	
 	i) Creating Spark session is the first step of any spark application.
 	ii) With Spark 2.0, a spark session can access all of spark's functionality through a single unified point of entry.
 	iii) When you start your spark session in python, Pyspark uses PY4G to launch java virtual machine and creates a java spark context. All PY4G allows python programs to dynamically access java objects in java virtual machine.
 
 
 Lesson 1.5 Partitions, transformations, lazy evaluations, and actions
-    i) Spark is a distributed system. This means that if we want the workers to work in parallel, Spark needs to break the data into chunks or partitions. A partition is a collection of rows from your dataframe that sits on one machine in your cluster. So a data rames partition is how the data is physically distributed across the cluster of machines during execution.
+    
+	i) Spark is a distributed system. This means that if we want the workers to work in parallel, Spark needs to break the data into chunks or partitions. A partition is a collection of rows from your dataframe that sits on one machine in your cluster. So a data rames partition is how the data is physically distributed across the cluster of machines during execution.
 
 	ii)Transformations are a core data structure in Spark, and they can't be changed once they've been created. So the instructions that we use to modify the data frame are known as transformations. This could be a filter operation, or a distinct operation, where you only get the unique values in a certain column. You'll find that when we perform transformation operations, nothing seems to happen. Spark doesn't act on transformations until we perform something called actions.
 
@@ -38,4 +41,4 @@ Lesson 3.1
 	ii) RDD - Lowlevel API
 	iii) Python does not support Dataset API, but most of its functionalitites are available in Dataframe API.
 	
-From Lesson 3.2 See jupyter notebook.
+**From Lesson 3.2 See jupyter notebook.**
