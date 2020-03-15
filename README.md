@@ -2,12 +2,12 @@
 This Repository contains sample codes which l learnt from the linkedin course: "Apache PySpark by Example"
 
 
-
 Lesson 1.1
 	Apache Spark consists of
-		i) Spark Core API - Take cares of Task Scheduling, Memory Management, Fault Recovery and Interacting with storage systems. Primarliy written in scala, but can be accessed by Java, Python, R and SQL.
-	
-		ii) Important functionalities include Spark SQL, Streaming, MLlib and GraphX.
+		
+	i) Spark Core API - Take cares of Task Scheduling, Memory Management, Fault Recovery and Interacting with storage systems. Primarliy written in scala, but can be accessed by Java, Python, R and SQL.
+
+	ii) Important functionalities include Spark SQL, Streaming, MLlib and GraphX.
 		
 Lesson 1.2
 	Pyspark is python wrapper around spark(which is written in scala)
